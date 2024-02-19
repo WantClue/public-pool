@@ -51,7 +51,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: yourusername/yourimage:latest
+          tags: WantClue/public-pool:latest
           platforms: linux/arm64
 
       - name: Checkout repository
