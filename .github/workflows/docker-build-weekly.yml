@@ -60,7 +60,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: WantClue/public-pool:latest
-          platforms: linux/arm64
 
       - name: Checkout repository
         uses: actions/checkout@v3
