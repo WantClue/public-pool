@@ -59,7 +59,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: WantClue/public-pool:latest
+          tags: wantclue/public-pool:latest
 
       - name: Checkout repository
         uses: actions/checkout@v3
